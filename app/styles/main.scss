@@ -1,0 +1,137 @@
+@import 'sass-bootstrap/lib/bootstrap';
+@import 'sass-bootstrap/lib/responsive';
+
+
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.animation-scene {
+	background: #53809F image-url("#{$imgScene}") no-repeat scroll 0 100%;
+	border: solid 1px $white;
+	height: 519px;
+	margin: 40px 0;
+	overflow: hidden;
+	position: relative;
+	width: 100%;  
+}
+
+.atat {
+	height: 300px;
+	left: 50px;
+	position: relative;
+	top: 60px;
+	width: 300px;
+	z-index: 10;
+}
+
+.head {
+	height: 100px;
+	position: absolute;
+	right: -190px;
+	top: 30px;
+	width: 230px;
+}
+
+.skull {
+	background: image-url("#{$imgSkull}") left center no-repeat;
+	height: 123px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 186px;
+	z-index: 300;
+}
+
+.neck {
+	background: image-url("#{$imgNeck}") left center no-repeat;
+	height: 50px;
+	left: 0;
+	position: absolute;
+	top: 30%;
+	width: 82px;
+}
+
+.shell {
+	background: transparent image-url("#{$imgBody}") no-repeat top left;
+	height: 195px;
+	position: absolute;
+	width: 300px;
+}
+
+.leg-a,
+.leg-b,
+.leg-c,
+.leg-d {
+	height: 450px;
+	position: relative;
+	width: 131px;
+}
+
+.leg-a {
+	left: -10px;
+	position: absolute;
+	top:140px;
+}
+
+.leg-b {
+	position: absolute;
+	right: 20px;
+	top: 140px;
+}
+
+.leg-c {
+	left: 3px;
+	position: absolute;
+	top: 150px;
+}
+
+.leg-d {
+	position: absolute;
+	right: 10px;
+	top: 150px;
+}
+
+.leg-thigh {
+	background: image-url("#{$imgThigh}") top center no-repeat;
+	height: 120px;
+	position: absolute;
+	width: 131px;
+}
+
+.background .leg-thigh {
+	background: image-url("#{$imgThighDark}") top center no-repeat;
+}
+
+.leg-shin {
+	height: 115px;
+	position: absolute;
+	top: 100px;
+	width: 131px;
+}
+
+.leg-shin	.exo {
+	background: image-url("#{$imgKnee}") center top no-repeat,
+	image-url("#{$imgShin}") center bottom no-repeat;
+	height: 115px;
+	position: relative;
+	width: 131px;
+}
+
+.background .leg-shin .exo {
+	background: image-url("#{$imgKneeDark}") center top no-repeat,
+	image-url("#{$imgShinDark}") center bottom no-repeat;
+}
+
+.leg-foot {
+	background: image-url("#{$imgFoot}") center bottom no-repeat;
+	bottom: -70px;
+	height: 90px;
+	position: absolute;
+	width: 131px;
+}
+
+.background .leg-foot {
+	background: image-url("#{$imgFootDark}") center bottom no-repeat;
+}
