@@ -2,5 +2,5 @@
 define([], function () {
     'use strict';
 
-    return '\'Allo \'Allo!';
+    return 'StarWars-AT-AT CSS3 animation!!! =)';
 });
