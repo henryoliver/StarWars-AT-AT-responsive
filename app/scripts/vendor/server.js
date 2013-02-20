@@ -2,7 +2,7 @@
 
 var lactate = require('lactate'),
     http = require('http'),
-    port = 80,
+    port = 8080,
     root = './';
 
 var options = {
