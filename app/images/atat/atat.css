@@ -1,0 +1,125 @@
+.atat-body {
+  background: url(../atat-sprited.png) 0px 0px no-repeat;
+  display: inline-block;
+  width: 298px;
+  height: 191px;
+}
+
+.atat-body-phone {
+  background: url(../atat-sprited.png) 0px -195px no-repeat;
+  display: inline-block;
+  width: 179px;
+  height: 115px;
+}
+
+.atat-foot {
+  background: url(../atat-sprited.png) -318px -195px no-repeat;
+  display: inline-block;
+  width: 131px;
+  height: 88px;
+}
+
+.atat-foot-dark {
+  background: url(../atat-sprited.png) -183px -195px no-repeat;
+  display: inline-block;
+  width: 131px;
+  height: 88px;
+}
+
+.atat-foot-dark-phone {
+  background: url(../atat-sprited.png) -385px -314px no-repeat;
+  display: inline-block;
+  width: 79px;
+  height: 53px;
+}
+
+.atat-foot-phone {
+  background: url(../atat-sprited.png) -492px 0px no-repeat;
+  display: inline-block;
+  width: 79px;
+  height: 53px;
+}
+
+.atat-knee-shin {
+  background: url(../atat-sprited.png) -192px -314px no-repeat;
+  display: inline-block;
+  width: 73px;
+  height: 115px;
+}
+
+.atat-knee-shin-dark {
+  background: url(../atat-sprited.png) -117px -314px no-repeat;
+  display: inline-block;
+  width: 71px;
+  height: 115px;
+}
+
+.atat-knee-shin-dark-phone {
+  background: url(../atat-sprited.png) -492px -133px no-repeat;
+  display: inline-block;
+  width: 43px;
+  height: 69px;
+}
+
+.atat-knee-shin-phone {
+  background: url(../atat-sprited.png) -492px -206px no-repeat;
+  display: inline-block;
+  width: 44px;
+  height: 69px;
+}
+
+.atat-neck {
+  background: url(../atat-sprited.png) -302px -127px no-repeat;
+  display: inline-block;
+  width: 82px;
+  height: 50px;
+}
+
+.atat-neck-phone {
+  background: url(../atat-sprited.png) -492px -279px no-repeat;
+  display: inline-block;
+  width: 49px;
+  height: 30px;
+}
+
+.atat-skull {
+  background: url(../atat-sprited.png) -302px 0px no-repeat;
+  display: inline-block;
+  width: 186px;
+  height: 123px;
+}
+
+.atat-skull-phone {
+  background: url(../atat-sprited.png) -269px -314px no-repeat;
+  display: inline-block;
+  width: 112px;
+  height: 74px;
+}
+
+.atat-thigh {
+  background: url(../atat-sprited.png) -59px -314px no-repeat;
+  display: inline-block;
+  width: 54px;
+  height: 119px;
+}
+
+.atat-thigh-dark {
+  background: url(../atat-sprited.png) 0px -314px no-repeat;
+  display: inline-block;
+  width: 55px;
+  height: 119px;
+}
+
+.atat-thigh-dark-phone {
+  background: url(../atat-sprited.png) -492px -57px no-repeat;
+  display: inline-block;
+  width: 37px;
+  height: 72px;
+}
+
+.atat-thigh-phone {
+  background: url(../atat-sprited.png) -533px -57px no-repeat;
+  display: inline-block;
+  width: 37px;
+  height: 72px;
+}

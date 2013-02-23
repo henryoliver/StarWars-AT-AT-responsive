@@ -1,6 +1,6 @@
 @import 'sass-bootstrap/lib/bootstrap';
 @import 'sass-bootstrap/lib/responsive';
-
+@import 'atat-images';
 
 body {
   padding-top: 60px;
@@ -12,126 +12,114 @@ body {
 	border: solid 1px $white;
 	height: 519px;
 	margin: 40px 0;
-	overflow: hidden;
-	position: relative;
-	width: 100%;  
 }
 
 .atat {
-	height: 300px;
+	height: 446px;
 	left: 50px;
 	position: relative;
 	top: 60px;
-	width: 300px;
+	width: 506px;
 	z-index: 10;
 }
 
+// Animate bone
 .head {
-	height: 100px;
+	//border: 1px dotted red;
+	height: 130px;
 	position: absolute;
-	right: -190px;
-	top: 30px;
+	right: 16px;
+	top: 28px;
 	width: 230px;
 }
 
-.skull {
-	background: image-url("#{$imgSkull}") left center no-repeat;
-	height: 123px;
-	position: absolute;
-	right: 0;
-	top: 0;
-	width: 186px;
-	z-index: 300;
-}
+	.skull {
+		height: 123px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 186px;
+		z-index: 30;
+	}
+	.neck {
+		height: 50px;
+		left: 0;
+		position: absolute;
+		top: 30px;
+		width: 82px;
+	}
 
-.neck {
-	background: image-url("#{$imgNeck}") left center no-repeat;
-	height: 50px;
-	left: 0;
-	position: absolute;
-	top: 30%;
-	width: 82px;
-}
-
+// Animate bone
 .shell {
-	background: transparent image-url("#{$imgBody}") no-repeat top left;
-	height: 195px;
+	//border: 1px dotted red;
+	height: 191px;
 	position: absolute;
-	width: 300px;
+	width: 298px;
 }
+
 
 .leg-a,
 .leg-b,
 .leg-c,
 .leg-d {
-	height: 450px;
+	height: 300px;
 	position: relative;
 	width: 131px;
 }
-
 .leg-a {
-	left: -10px;
+	left: 32px;
 	position: absolute;
-	top:140px;
+	top: 148px;
 }
-
 .leg-b {
 	position: absolute;
-	right: 20px;
-	top: 140px;
+	right: 180px;
+	top: 147px;
 }
-
 .leg-c {
-	left: 3px;
+	left: 46px;
 	position: absolute;
-	top: 150px;
+	top: 156px;
 }
-
 .leg-d {
 	position: absolute;
-	right: 10px;
-	top: 150px;
+	right: 176px;
+	top: 155px;
 }
 
+// Animate bone
 .leg-thigh {
-	background: image-url("#{$imgThigh}") top center no-repeat;
-	height: 120px;
+	//border: 1px dotted red;
+	height: 119px;
 	position: absolute;
-	width: 131px;
+	width: 55px;
 }
 
-.background .leg-thigh {
-	background: image-url("#{$imgThighDark}") top center no-repeat;
-}
-
+// Animate bone
 .leg-shin {
+	//border: 1px dotted red;
 	height: 115px;
+	left: -10px;
 	position: absolute;
 	top: 100px;
-	width: 131px;
+	width: 73px;
 }
 
-.leg-shin	.exo {
-	background: image-url("#{$imgKnee}") center top no-repeat,
-	image-url("#{$imgShin}") center bottom no-repeat;
+// Animate bone
+.leg-shin .exo {
+	//border: 1px dotted red;
 	height: 115px;
 	position: relative;
-	width: 131px;
+	width: 73px;
 }
 
-.background .leg-shin .exo {
-	background: image-url("#{$imgKneeDark}") center top no-repeat,
-	image-url("#{$imgShinDark}") center bottom no-repeat;
-}
-
+// Animate bone
 .leg-foot {
-	background: image-url("#{$imgFoot}") center bottom no-repeat;
-	bottom: -70px;
+	//border: 1px dotted red;
+	bottom: -74px;
+	left: -30px;
 	height: 90px;
 	position: absolute;
 	width: 131px;
-}
-
-.background .leg-foot {
-	background: image-url("#{$imgFootDark}") center bottom no-repeat;
+	z-index: -20;
 }

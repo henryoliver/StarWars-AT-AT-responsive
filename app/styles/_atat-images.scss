@@ -1,0 +1,32 @@
+
+// Images & Sprites path
+// -------------------------
+$imgScene:				"atat-background.jpg" !default;
+$imgAtat:				"atat-sprited.png" !default;
+
+.skull                      { background: image-url("#{$imgAtat}")    -302px 0px no-repeat }
+.neck                       { background: image-url("#{$imgAtat}") -302px -127px no-repeat }
+.shell                      { background: image-url("#{$imgAtat}")       0px 0px no-repeat }
+.leg-thigh                  { background: image-url("#{$imgAtat}")  -59px -314px no-repeat }
+.background .leg-thigh      { background: image-url("#{$imgAtat}")    0px -314px no-repeat }
+.leg-shin .exo              { background: image-url("#{$imgAtat}") -192px -314px no-repeat }
+.background .leg-shin .exo  { background: image-url("#{$imgAtat}") -117px -314px no-repeat }
+.leg-foot                   { background: image-url("#{$imgAtat}") -318px -195px no-repeat }
+.background .leg-foot       { background: image-url("#{$imgAtat}") -183px -195px no-repeat }
+
+
+@media (max-width: 767px) {
+	.skull { 
+		background-position: 0px 0px;
+		height: 100px;
+		width: 100px;
+	}
+	.neck                       { background: image-url("#{$imgAtat}") -302px -127px no-repeat }
+	.shell                      { background: image-url("#{$imgAtat}")       0px 0px no-repeat }
+	.leg-thigh                  { background: image-url("#{$imgAtat}")  -59px -314px no-repeat }
+	.background .leg-thigh      { background: image-url("#{$imgAtat}")    0px -314px no-repeat }
+	.leg-shin .exo              { background: image-url("#{$imgAtat}") -192px -314px no-repeat }
+	.background .leg-shin .exo  { background: image-url("#{$imgAtat}") -117px -314px no-repeat }
+	.leg-foot                   { background: image-url("#{$imgAtat}") -318px -195px no-repeat }
+	.background .leg-foot       { background: image-url("#{$imgAtat}") -183px -195px no-repeat }
+}
