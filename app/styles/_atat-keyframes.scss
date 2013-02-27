@@ -1,0 +1,431 @@
+// Animation Keyframes
+
+@import 'atat-mixins';
+@import 'compass';
+@import 'animation';
+
+// Head
+@include keyframes(rotate-head) {
+	0% {
+		@include transform(0deg, 0px, 0px);
+	}
+	40% {
+		@include transform(10deg, 15px, 5px);
+	}
+	80% {
+		@include transform(-5deg, 8px, 5px);
+	}
+	100% {
+		@include transform(0deg, 0px, 0px);
+	}
+}
+
+.head {
+	@include animation(rotate-head, 7s);
+	@include transform-origin(0 50%);
+}
+
+
+
+
+// @keyframes rotate-head {
+// 	0% {
+// 		@include rotate(0deg);
+// 		@include translate(0px,0px);
+// 	}
+// 	40% {
+// 		@include rotate(10deg);
+// 		@include translate(15px,5px);
+// 	}
+// 	80% {
+// 		@include rotate(-5deg);
+// 		@include translate(8px,5px);
+// 	}
+// 	100% {
+// 		@include rotate(0deg);
+// 		@include translate(0px,0px);
+// 	}
+// 	}
+
+
+
+// // Background position
+// @mixin background-position($position...) {
+//   -webkit-background-position: $position;
+//      -moz-background-position: $position;
+//        -o-background-position: $position;
+//           background-position: $position;
+// }
+
+// @mixin keyframes($name) {
+//     @-webkit-keyframes #{$name} { @content; }
+//     @-moz-keyframes #{$name} { @content; }
+//     @keyframes #{$name} { @content; }
+// }
+
+
+
+// @keyframes scene {
+// 	0% {
+// 		@include background-position(left bottom);
+// 	}
+// 	100% {
+// 		@include background-position(right bottom);
+// 	}
+// }
+
+// @-ms-keyframes scene {
+// 	0% {
+// 		background-position-x: 1px;
+// 	}
+// 	100% {
+// 		background-position-x: -4203px;
+// 	}
+// }
+
+
+// 	@keyframes rotate-skull {
+// 		0% {
+// 			@include rotate(0deg);
+// 		}
+// 		25% {
+// 			@include rotate(15deg);
+// 		}
+// 		50% {
+// 			@include rotate(-5deg);
+// 		}
+// 		55% {
+// 			@include rotate(0deg);
+// 		}
+// 		75% {
+// 			@include rotate(-10deg);
+// 		}
+// 		100% {
+// 			@include rotate(0deg);
+// 		}
+// 	}
+
+
+// @keyframes rotate-shell {
+// 	0% {
+// 		@include rotate(0deg);
+// 	}
+// 	20% {
+// 		@include rotate(3deg);
+// 	}
+// 	40% {
+// 		@include rotate(0deg);
+// 	}
+// 	50% {
+// 		@include rotate(0deg);
+// 	}
+// 	70% {
+// 		@include rotate(-3deg);
+// 	}
+// 	90% {
+// 		@include rotate(0deg);
+// 	}
+// 	100% {
+// 		@include rotate(0deg);
+// 	}
+// }
+
+// @keyframes rotate-hip-a {
+// 	0% {
+// 		@include translate(0px,0px);
+// 	}
+// 	75% {
+// 		@include translate(0px,0px);
+// 	}
+// 	80% {
+// 		@include translate(5px,0px);
+// 	}
+// 	85% {
+// 		@include translate(5px,5px);
+// 	}
+// 	90% {
+// 		@include translate(-5px,5px);
+// 	}
+// 	95% {
+// 		@include translate(-5px,0px);
+// 	}
+// 	100% {
+// 		@include translate(0px,0px);
+// 	}
+// }
+
+// @keyframes rotate-hip-b {
+// 	0% {
+// 		@include translate(0px,0px);
+// 	}
+// 	55% {
+// 		@include translate(0px,0px);
+// 	}
+// 	60% {
+// 		@include translate(5px,0px);
+// 	}
+// 	65% {
+// 		@include translate(5px,5px);
+// 	}
+// 	70% {
+// 		@include translate(-5px,5px);
+// 	}
+// 	75% {
+// 		@include translate(-5px,0px);
+// 	}
+// 	80% {
+// 		@include translate(0px,0px);
+// 	}
+// 	100% {
+// 		@include translate(0px,0px);
+// 	}
+// }
+
+// @keyframes rotate-hip-c {
+// 	0% {
+// 		@include translate(0px,0px);
+// 	}
+// 	25% {
+// 		@include translate(0px,0px);
+// 	}
+// 	30% {
+// 		@include translate(5px,0px);
+// 	}
+// 	35% {
+// 		@include translate(5px,5px);
+// 	}
+// 	40% {
+// 		@include translate(-5px,5px);
+// 	}
+// 	45% {
+// 		@include translate(-5px,0px);
+// 	}
+// 	50% {
+// 		@include translate(0px,0px);
+// 	}
+// 	100% {
+// 		@include translate(0px,0px);
+// 	}
+// }
+
+// @keyframes rotate-hip-d {
+// 	0% {
+// 		@include translate(0px,0px);
+// 	}
+// 	05% {
+// 		@include translate(5px,0px);
+// 	}
+// 	10% {
+// 		@include translate(5px,5px);
+// 	}
+// 	15% {
+// 		@include translate(-5px,5px);
+// 	}
+// 	20% {
+// 		@include translate(-5px,0px);
+// 	}
+// 	25% {
+// 		@include translate(0px,0px);
+// 	}
+// 	100% {
+// 		@include translate(0px,0px);
+// 	}
+// }
+
+// @keyframes thigh-a {
+// 	0% {
+// 		@include rotate(0deg);
+// 	}
+// 	70% {
+// 		@include rotate(0deg);
+// 	}
+// 	80% {
+// 		@include rotate(-13deg);
+// 	}
+// 	100% {
+// 		@include rotate(0deg);
+// 	}
+// }
+
+// @keyframes thigh-b {
+// 	0% {
+// 		@include rotate(0deg);
+// 	}
+// 	50% {
+// 		@include rotate(0deg);
+// 	}
+// 	60% {
+// 		@include rotate(-13deg);
+// 	}
+// 	80% {
+// 		@include rotate(0deg);
+// 	}
+// 	100% {
+// 		@include rotate(0deg);
+// 	}
+// }
+
+// @keyframes thigh-c {
+// 	0% {
+// 		@include rotate(0deg);
+// 	}
+// 	20% {
+// 		@include rotate(0deg);
+// 	}
+// 	30% {
+// 		@include rotate(-13deg);
+// 	}
+// 	50% {
+// 		@include rotate(0deg);
+// 	}
+// 	100% {
+// 		@include rotate(0deg);
+// 	}
+// }
+
+// @keyframes thigh-d {
+// 	0% {
+// 		@include rotate(0deg);
+// 	}
+// 	10% {
+// 		@include rotate(-13deg);
+// 	}
+// 	30% {
+// 		@include rotate(0deg);
+// 	}
+// 	100% {
+// 		@include rotate(0deg);
+// 	}
+// }
+
+// @keyframes shin-a {
+// 	0% {
+// 		@include rotate(0deg);
+// 	}
+// 	70% {
+// 		@include rotate(0deg);
+// 	}
+// 	80% {
+// 		@include rotate(23deg);
+// 	}
+// 	100% {
+// 		@include rotate(0deg);
+// 	}
+// }
+
+// @keyframes shin-b {
+// 	0% {
+// 		@include rotate(0deg);
+// 	}
+// 	50% {
+// 		@include rotate(0deg);
+// 	}
+// 	60% {
+// 		@include rotate(23deg);
+// 	}
+// 	80% {
+// 		@include rotate(0deg);
+// 	}
+// 	100% {
+// 		@include rotate(0deg);
+// 	}
+// }
+
+// @keyframes shin-c {
+// 	0% {
+// 		@include rotate(0deg);
+// 	}
+// 	20% {
+// 		@include rotate(0deg);
+// 	}
+// 	30% {
+// 		@include rotate(23deg);
+// 	}
+// 	50% {
+// 		@include rotate(0deg);
+// 	}
+// 	100% {
+// 		@include rotate(0deg);
+// 	}
+// }
+
+// @keyframes shin-d {
+// 	0% {
+// 		@include rotate(0deg);
+// 	}
+// 	10% {
+// 		@include rotate(23deg);
+// 	}
+// 	30% {
+// 		@include rotate(0deg);
+// 	}
+// 	100% {
+// 		@include rotate(0deg);
+// 	}
+// }
+
+// @keyframes foot-a {
+// 	0% {
+// 		@include rotate(0deg);
+// 	}
+// 	70% {
+// 		@include rotate(0deg);
+// 	}
+// 	80% {
+// 		@include rotate(-20deg);
+// 	}
+// 	100% {
+// 		@include rotate(0deg);
+// 	}
+// }
+
+// @keyframes foot-b {
+// 	0% {
+// 		@include rotate(0deg);
+// 	}
+// 	50% {
+// 		@include rotate(0deg);
+// 	}
+// 	60% {
+// 		@include rotate(-20deg);
+// 	}
+// 	80% {
+// 		@include rotate(0deg);
+// 	}
+// 	100% {
+// 		@include rotate(0deg);
+// 	}
+// }
+
+// @keyframes foot-c {
+// 	0% {
+// 		@include rotate(0deg);
+// 	}
+// 	20% {
+// 		@include rotate(0deg);
+// 	}
+// 	30% {
+// 		@include rotate(-20deg);
+// 	}
+// 	50% {
+// 		@include rotate(0deg);
+// 	}
+// 	100% {
+// 		@include rotate(0deg);
+// 	}
+// }
+
+// @keyframes foot-d {
+// 	0% {
+// 		@include rotate(0deg);
+// 	}
+// 	10% {
+// 		@include rotate(-20deg);
+// 	}
+// 	30% {
+// 		@include rotate(0deg);
+// 	}
+// 	100% {
+// 		@include rotate(0deg);
+// 	}
+// }

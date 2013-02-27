@@ -1,0 +1,115 @@
+// Responsiveness media querie
+
+@media (max-width: 767px) {
+
+	.hero-unit h1 {
+		font-size: 40px;
+		@include transition-duration(1s);
+	}
+
+	.animation-scene {
+		height: 311px;
+		@include transition-duration(1s);
+	}
+
+	.atat {
+		height: 268px;
+		left: 30px;
+		top: 36px;
+		width: 304px;
+	}
+
+	// Animate bone
+	.head {
+		height: 78px;
+		right: 10px;
+		top: 17px;
+		width: 138px;
+		@include transition-duration(1s);
+		}
+
+		.skull { 
+			background-position: -269px -314px;
+			height: 74px;
+			width: 112px;
+		}
+		.neck {
+			background-position: -492px -279px;
+			height: 30px;
+			top: 18px;
+			width: 49px;
+		}
+
+	// Animate bone
+	.shell {
+		background-position: 0px -195px;
+		height: 115px;
+		width: 179px;
+		@include transition-duration(width 1s);
+	}
+
+	.leg-a,
+	.leg-b,
+	.leg-c,
+	.leg-d {
+		height: 180px;
+		width: 79px;
+	}
+	.leg-a {
+		left: 19px;
+		top: 89px;
+	}
+	.leg-b {
+		right: 108px;
+		top: 88px;
+	}
+	.leg-c {
+		left: 28px;
+		top: 94px;
+	}
+	.leg-d {
+		right: 106px;
+		top: 93px;
+	}
+
+	// Animate bone
+	.leg-thigh {
+		background-position: -533px -57px;
+		height: 72px;
+		width: 37px;
+		@include transition-duration(width 1s);
+	}
+	.background .leg-thigh {
+		background-position: -492px -57px;
+	}
+
+	// Animate bone
+	.leg-shin {
+		height: 69px;
+		left: -6px;
+		top: 60px;
+		width: 44px;
+		@include transition-duration(1s);
+	}
+	.leg-shin .exo {
+		background-position: -492px -206px;
+		height: 69px;
+		width: 44px;
+	}
+	.background .leg-shin .exo {
+		background-position: -492px -133px;
+	}
+
+	// Animate bone
+	.leg-foot {
+		background-position: -492px 0px;
+		height: 53px;
+		bottom: -44px;
+		left: -18px;
+		width: 79px;
+		@include transition-duration(width 1s);
+	}
+	.background .leg-foot {
+		background-position: -385px -314px;
+	}
+}

@@ -1,6 +1,7 @@
 @import 'sass-bootstrap/lib/bootstrap';
 @import 'sass-bootstrap/lib/responsive';
 @import 'atat-images';
+@import 'atat-animation';
 
 body {
   padding-top: 60px;
@@ -25,13 +26,13 @@ body {
 
 // Animate bone
 .head {
-	//border: 1px dotted red;
+	border: 1px dotted red;
 	height: 130px;
 	position: absolute;
 	right: 16px;
 	top: 28px;
 	width: 230px;
-}
+	}
 
 	.skull {
 		height: 123px;
@@ -51,45 +52,40 @@ body {
 
 // Animate bone
 .shell {
-	//border: 1px dotted red;
+	border: 1px dotted red;
 	height: 191px;
 	position: absolute;
 	width: 298px;
 }
-
 
 .leg-a,
 .leg-b,
 .leg-c,
 .leg-d {
 	height: 300px;
-	position: relative;
+	position: absolute;
 	width: 131px;
 }
 .leg-a {
 	left: 32px;
-	position: absolute;
 	top: 148px;
 }
 .leg-b {
-	position: absolute;
 	right: 180px;
 	top: 147px;
 }
 .leg-c {
 	left: 46px;
-	position: absolute;
 	top: 156px;
 }
 .leg-d {
-	position: absolute;
 	right: 176px;
 	top: 155px;
 }
 
 // Animate bone
 .leg-thigh {
-	//border: 1px dotted red;
+	border: 1px dotted red;
 	height: 119px;
 	position: absolute;
 	width: 55px;
@@ -97,7 +93,7 @@ body {
 
 // Animate bone
 .leg-shin {
-	//border: 1px dotted red;
+	border: 1px dotted red;
 	height: 115px;
 	left: -10px;
 	position: absolute;
@@ -107,7 +103,7 @@ body {
 
 // Animate bone
 .leg-shin .exo {
-	//border: 1px dotted red;
+	border: 1px dotted red;
 	height: 115px;
 	position: relative;
 	width: 73px;
@@ -115,7 +111,7 @@ body {
 
 // Animate bone
 .leg-foot {
-	//border: 1px dotted red;
+	border: 1px dotted red;
 	bottom: -74px;
 	left: -30px;
 	height: 90px;
@@ -123,3 +119,5 @@ body {
 	width: 131px;
 	z-index: -20;
 }
+
+@import 'atat-responsive';

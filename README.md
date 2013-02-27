@@ -1,4 +1,4 @@
-StarWars-AT-AT-app
-==================
+StarWars-AT-AT-responsive
+=========================
 
-This sample is based on the awesome work done by Anthony Calzadilla. You can check other incredible demos on his website here: http://www.anthonycalzadilla.com.
+The responsive version made all in Sass of the awesome StarWars-AT-AT animation done by Anthony Calzadilla. You can check other incredible demos on his website here: http://www.anthonycalzadilla.com.
