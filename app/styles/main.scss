@@ -1,11 +1,21 @@
-@import 'sass-bootstrap/lib/bootstrap';
-@import 'sass-bootstrap/lib/responsive';
+@import 'bootstrap-imports';
+@import 'atat-typography';
 @import 'atat-images';
 @import 'atat-animation';
 
 body {
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.hero-unit {
+	padding: 40px;
+
+	h1 {
+		font-family: 'DistantGalaxyRegular';
+		font-weight: 400;
+		margin-top: 20px;
+		text-align: center;
+	}
 }
 
 .animation-scene {
@@ -26,7 +36,6 @@ body {
 
 // Animate bone
 .head {
-	border: 1px dotted red;
 	height: 130px;
 	position: absolute;
 	right: 16px;
@@ -52,7 +61,6 @@ body {
 
 // Animate bone
 .shell {
-	border: 1px dotted red;
 	height: 191px;
 	position: absolute;
 	width: 298px;
@@ -85,7 +93,6 @@ body {
 
 // Animate bone
 .leg-thigh {
-	border: 1px dotted red;
 	height: 119px;
 	position: absolute;
 	width: 55px;
@@ -93,7 +100,6 @@ body {
 
 // Animate bone
 .leg-shin {
-	border: 1px dotted red;
 	height: 115px;
 	left: -10px;
 	position: absolute;
@@ -103,7 +109,6 @@ body {
 
 // Animate bone
 .leg-shin .exo {
-	border: 1px dotted red;
 	height: 115px;
 	position: relative;
 	width: 73px;
@@ -111,7 +116,6 @@ body {
 
 // Animate bone
 .leg-foot {
-	border: 1px dotted red;
 	bottom: -74px;
 	left: -30px;
 	height: 90px;

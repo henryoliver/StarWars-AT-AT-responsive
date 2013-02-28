@@ -1,0 +1,33 @@
+// Core variables and mixins
+@import 'sass-bootstrap/lib/variables'; // Modify this for custom colors, font-sizes, etc
+@import 'sass-bootstrap/lib/mixins';
+
+// CSS Reset
+@import 'sass-bootstrap/lib/reset';
+
+// Grid system and page structure
+@import 'sass-bootstrap/lib/scaffolding';
+@import 'sass-bootstrap/lib/grid';
+@import 'sass-bootstrap/lib/layouts';
+
+// Components: Misc
+@import 'sass-bootstrap/lib/hero-unit';
+
+
+// RESPONSIVE CLASSES
+// ------------------
+
+@import 'sass-bootstrap/lib/responsive-utilities';
+
+
+// MEDIA QUERIES
+// ------------------
+
+// Large desktops
+@import 'sass-bootstrap/lib/responsive-1200px-min';
+
+// Tablets to regular desktops
+@import 'sass-bootstrap/lib/responsive-768px-979px';
+
+// Phones to portrait tablets and narrow desktops
+@import 'sass-bootstrap/lib/responsive-767px-max';

@@ -1,0 +1,13 @@
+// Typography
+
+@import 'compass/css3';
+ 
+@include font-face('DistantGalaxyRegular',
+					font-files(
+							'DISTGRG_-webfont.eot',
+							'DISTGRG_-webfont.eot?#iefix',
+							'DISTGRG_-webfont.woff',
+							'DISTGRG_-webfont.ttf',
+							'DISTGRG_-webfont.svg#DistantGalaxyRegular'
+							)
+					);

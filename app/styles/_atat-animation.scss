@@ -2,141 +2,89 @@
 
 @import 'atat-keyframes';
 
-// .atat .shell {
-// 	animation-name: rotate-shell;
-// 	animation-duration: 4s;
-// 	animation-iteration-count: infinite;
-// }
 
-// .atat .head {
-// 	animation-name: rotate-head;
-// 	animation-duration: 7s;
-// 	animation-iteration-count: infinite;
+.animation-scene {
+	@include animation(scene 300s infinite);
+}
 
-// 	transform-origin: 0 50%;
-// }
-// .atat .skull {
-// 	animation-name: rotate-skull;
-// 	animation-duration: 7 s;
-// 	animation-iteration-count: infinite;
+.head {
+	@include animation(rotate-head 7s infinite);
+	@include transform-origin(0, 50%);
+	}
 
-// 	transform-origin: 0 50%;
-// }
+	.skull {
+		@include animation(rotate-skull 7s infinite);
+		@include transform-origin(0, 50%);
+	}
 
-// .atat .leg-a {
-// 	animation-name: rotate-hip-a;
-// 	animation-duration: 7s;
-// 	animation-iteration-count: infinite;
+.shell {
+	@include animation(rotate-shell 4s infinite);
+}
 
-// 	transform-origin: 100% 100%;
-// }
-// .atat .leg-b {
-// 	animation-name: rotate-hip-b;
-// 	animation-duration: 8s;
-// 	animation-iteration-count: infinite;
+.leg-a {
+	@include animation(rotate-hip-a 7s infinite);
+	@include transform-origin(100%, 100%);
+}
+.leg-b {
+	@include animation(rotate-hip-b 8s infinite);
+	@include transform-origin(100%, 100%);
+}
+.leg-c {
+	@include animation(rotate-hip-c 7s infinite);
+	@include transform-origin(100%, 100%);
+}
+.leg-d {
+	@include animation(rotate-hip-d 7s infinite);
+	@include transform-origin(100%, 100%);
+}
 
-// 	transform-origin: 100% 100%;
-// }
-// .atat .leg-c {
-// 	animation-name: rotate-hip-c;
-// 	animation-duration: 7s;
-// 	animation-iteration-count: infinite;
+.leg-a .leg-thigh {
+	@include animation(thigh-a 7s infinite);
+	@include transform-origin(50%, 0);
+}
+.leg-b .leg-thigh {
+	@include animation(thigh-b 7s infinite);
+	@include transform-origin(50%, 0);
+}
+.leg-c .leg-thigh {
+	@include animation(thigh-c 7s infinite);
+	@include transform-origin(50%, 0);
+}
+.leg-d .leg-thigh {
+	@include animation(thigh-d 7s infinite);
+	@include transform-origin(50%, 0);
+}
 
-// 	transform-origin: 100% 100%;
-// }
-// .atat .leg-d {
-// 	animation-name: rotate-hip-d;
-// 	animation-duration: 7s;
-// 	animation-iteration-count: infinite;
+.leg-a .leg-shin {
+	@include animation(shin-a 7s infinite);
+	@include transform-origin(50%, 0);
+}
+.leg-b .leg-shin {
+	@include animation(shin-b 7s infinite);
+	@include transform-origin(50%, 0);
+}
+.leg-c .leg-shin {
+	@include animation(shin-c 7s infinite);
+	@include transform-origin(50%, 0);
+}
+.leg-d .leg-shin {
+	@include animation(shin-d 7s infinite);
+	@include transform-origin(50%, 0);
+}
 
-// 	transform-origin: 100% 100%;
-// }
-// .atat .leg-a .leg-thigh {
-// 	animation-name: thigh-a;
-// 	animation-duration: 7s;
-// 	animation-iteration-count: infinite;
-
-// 	transform-origin: 50% 0;
-// }
-// .atat .leg-b .leg-thigh {
-// 	animation-name: thigh-b;
-// 	animation-duration: 7s;
-// 	animation-iteration-count: infinite;
-
-// 	transform-origin: 50% 0;
-// }
-// .atat .leg-c .leg-thigh {
-// 	animation-name: thigh-c;
-// 	animation-duration: 7s;
-// 	animation-iteration-count: infinite;
-
-// 	transform-origin: 50% 0;
-// }
-// .atat .leg-d .leg-thigh {
-// 	animation-name: thigh-d;
-// 	animation-duration: 7s;
-// 	animation-iteration-count: infinite;
-
-// 	transform-origin: 50% 0;
-// }
-// .atat .leg-a .leg-shin {
-// 	animation-name: shin-a;
-// 	animation-duration: 7s;
-// 	animation-iteration-count: infinite;
-
-// 	transform-origin: 50% 0;
-// }
-// .atat .leg-b .leg-shin {
-// 	animation-name: shin-b;
-// 	animation-duration: 7s;
-// 	animation-iteration-count: infinite;
-
-// 	transform-origin: 50% 0;
-// }
-// .atat .leg-c .leg-shin {
-// 	animation-name: shin-c;
-// 	animation-duration: 7s;
-// 	animation-iteration-count: infinite;
-
-// 	transform-origin: 50% 0;
-// }
-// .atat .leg-d .leg-shin {
-// 	animation-name: shin-d;
-// 	animation-duration: 7s;
-// 	animation-iteration-count: infinite;
-
-// 	transform-origin: 50% 0;
-// }
-// .atat .leg-a .leg-foot {
-// 	animation-name: foot-a;
-// 	animation-duration: 7s;
-// 	animation-iteration-count: infinite;
-
-// 	transform-origin: 50% 0;
-// }
-// .atat .leg-b .leg-foot {
-// 	animation-name: foot-b;
-// 	animation-duration: 7s;
-// 	animation-iteration-count: infinite;
-
-// 	transform-origin: 50% 0;
-// }
-// .atat .leg-c .leg-foot {
-// 	animation-name: foot-c;
-// 	animation-duration: 7s;
-// 	animation-iteration-count: infinite;
-
-// 	transform-origin: 50% 0;
-// }
-// .atat .leg-d .leg-foot {
-// 	animation-name: foot-d;
-// 	animation-duration: 7s;
-// 	animation-iteration-count: infinite;
-	
-// 	transform-origin: 50% 0;
-// }
-// .animation-scene {
-// 	animation-name: screen;
-// 	animation-duration: 300s;
-// 	animation-iteration-count: infinite;
-// }
+.leg-a .leg-foot {
+	@include animation(foot-a 7s infinite);
+	@include transform-origin(50%, 0);
+}
+.leg-b .leg-foot {
+	@include animation(foot-b 7s infinite);
+	@include transform-origin(50%, 0);
+}
+.leg-c .leg-foot {
+	@include animation(foot-c 7s infinite);
+	@include transform-origin(50%, 0);
+}
+.leg-d .leg-foot {
+	@include animation(foot-d 7s infinite);
+	@include transform-origin(50%, 0);
+}
