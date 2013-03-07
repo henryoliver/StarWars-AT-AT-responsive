@@ -81,7 +81,12 @@ module.exports = function (grunt) {
             }
         },
         clean: {
-            dist: ['.tmp', '<%= yeoman.dist %>/*', '<%= yeoman.www %>/*'],
+            dist: ['.tmp', '<%= yeoman.dist %>/*'],
+            www: [
+                '<%= yeoman.www %>/*',
+                '!<%= yeoman.www %>/*.',
+                '!<%= yeoman.www %>/*.md'
+            ],
             server: '.tmp'
         },
         jshint: {
@@ -283,6 +288,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask('build', [
         'clean:dist',
+        'clean:www',
         'jshint',
         'test',
         'coffee',
