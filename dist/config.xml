@@ -7,7 +7,7 @@
             id        = "is.polen.app"
             version   = "0.0.1">
 
-    <name>StarWars AT-AT</name>
+    <name>AT-AT</name>
 
     <description>
         The fabulous animated All Terrain Armored Transport (AT-AT)! =)
@@ -18,7 +18,7 @@
     </author>
 
     <!-- Preferences -->
-    <preference name="phonegap-version" value="2.5.0" />
+    <preference name="phonegap-version" value="2.3.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="true" />

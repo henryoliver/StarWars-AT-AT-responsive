@@ -1,0 +1,1 @@
+(function(){define("app",[],function(){"use strict";return"StarWars-AT-AT CSS3 animation!!! =)"}),require(["app"],function(n){"use strict";console.log(n)}),define("main",function(){})})();
