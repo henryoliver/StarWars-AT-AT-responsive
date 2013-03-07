@@ -8,6 +8,7 @@
 
 	.hero-unit {
 		background: #53809F image-url("#{$imgScene}") no-repeat scroll 0 100%;
+		border-radius: 0;
 		margin: 0;
 		padding: 10px;
 		@include animation(scene 300s infinite);
